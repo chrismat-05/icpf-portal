@@ -1,0 +1,24 @@
+{
+  "name": "icpf-portal",
+  "version": "1.0.0",
+  "description": "ICPF Bengaluru Portal",
+  "main": "index.js",
+  "scripts": {
+    "db:bootstrap": "node scripts/bootstrap-local.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrismat-05/icpf-portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chrismat-05/icpf-portal/issues"
+  },
+  "homepage": "https://github.com/chrismat-05/icpf-portal#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.3"
+  }
+}
