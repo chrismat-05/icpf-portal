@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "ICPF Bengaluru Portal",
   "main": "index.js",
-  "scripts": {
-    "db:bootstrap": "node scripts/bootstrap-local.mjs"
-  },
+"scripts": {
+  "db:bootstrap": "node scripts/bootstrap-local.mjs",
+  "test:rls": "node scripts/test-rls.mjs"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chrismat-05/icpf-portal.git"
